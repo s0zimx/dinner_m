@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'MangoDdobak-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/MangoDdobak-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MangoDdobak-B';
+    display: flex;
+    justify-content: center;
+    background-color: #f2f9fe;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.jnuh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    margin: 0; /* 기본 마진 제거 */
+    padding-right: 5px; /* 이미지와의 간격 조정 */
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.jnuh_ {
+    width: 60px; /* 이미지 크기 조정 */
+    height: 60px;
+}
+
+
+h2 {
+    margin : 6px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 5px;
+    font-weight: 100;
+}
+
+.small-btn {
+    font-family: 'MangoDdobak-B';
+    font-weight: 50;
+    padding: 7px 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.small-btn:hover {
+    background-color: #45a049;
+}
+
+.attendance-section {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'MangoDdobak-B';
+    font-weight: 50;
+}
+
+button:hover {
+    background-color: #007bb5;
+}
+
+.status-box {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    max-height: 600px;
+    overflow-y: auto;
+    height: 300px;
+}
+
+#historyBtn {
+    background-color: #221f7a9f;
+}
+
+#historyBtn:hover {
+    background-color: #221f7a9f;
+}
+
+/* 팝업 스타일 */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>석식 대장부</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jnuh">
+            <h1>교사 석식 대장부</h1>
+            <img src="C:\Users\user\Desktop\송지민\image-removebg-preview (1).png" alt="jjj" class="jnuh_">
+        </div>
+        <button id="registerBtn" class="small-btn">등록</button>
+        
+        <div class="attendance-section">
+            <h2>출석</h2>
+            <input type="text" id="phoneInput" placeholder="전화번호 뒷자리" maxlength="4">
+            <button id="attendBtn">출석</button>
+        </div>
+
+        <div class="status-box">
+            <h3>출석 현황</h3>
+            <div id="attendanceList"></div>
+        </div>
+
+        <button id="historyBtn">히스토리</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
